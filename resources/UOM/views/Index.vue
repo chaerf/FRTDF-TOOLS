@@ -4,8 +4,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Component from "vue-class-component";
 
-export default {
-  //
-};
+export default class Index extends Vue {}
 </script>

@@ -7,12 +7,14 @@
 import "./bootstrap";
 import Vue from "vue";
 import ExampleComponent from "./components/ExampleComponent.vue";
+import Index from "./views/Index.vue";
 import router from "./router";
 import store from "./store";
 
 import importGlobals from "./utils/importGlobals";
 
 Vue.component("example", ExampleComponent);
+Vue.component("index", Index);
 
 importGlobals();
 
