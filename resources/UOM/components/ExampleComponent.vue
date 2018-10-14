@@ -14,10 +14,15 @@
     </div>
 </template>
 
-<script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
+
+<script lang="ts">
+import Vue from "vue";
+import Component from "vue-class-component";
+
+@Component
+export default class ExampleComponent extends Vue {
+  mounted() {
+    console.log("Component mounted.");
+  }
+}
 </script>

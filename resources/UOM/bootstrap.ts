@@ -14,9 +14,15 @@ axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
  * a simple convenience so we don't have to attach every token manually.
  */
 
-let token: HTMLMetaElement | null = document.head.querySelector(
-    'meta[name="csrf-token"]'
-);
+let token: HTMLMetaElement | null = null;
+
+if (
+    document &&
+    document.head &&
+    document.head.querySelector('meta[name="csrf-token"]')
+) {
+    token = document.head.querySelector('meta[name="csrf-token"]');
+}
 
 if (token) {
     axios.defaults.headers.common["X-CSRF-TOKEN"] = token.content;

@@ -5,13 +5,9 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-export default Vue.extend({
-  props: {
-    action: {
-      type: Function,
-      default: () => {}
-    }
-  }
-});
+import Vue from "vue";
+import Component from "vue-class-component";
+
+@Component
+export default class GlobalButton extends Vue {}
 </script>
