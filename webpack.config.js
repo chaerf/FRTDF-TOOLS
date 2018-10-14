@@ -5,7 +5,8 @@ module.exports = {
     resolve: {
         extensions: ['.ts', '.mjs', '.js'],
         alias: {
-            '@': path.join(__dirname, 'resources')
+            '@': path.join(__dirname, 'resources'),
+            vue: path.join(__dirname, 'node_modules/vue/dist/vue.js')
         }
     },
     entry: {
