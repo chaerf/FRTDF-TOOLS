@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <h1>This is your index page</h1>
-    <excomponent></excomponent>
-  </div>
+  <v-content>
+    <v-container>Hello world</v-container>
+  </v-content>
 </template>
 
 <script lang="ts">

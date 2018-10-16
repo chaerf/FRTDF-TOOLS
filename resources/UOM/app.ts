@@ -9,11 +9,14 @@ import Vue from "vue";
 import Index from "./views/Index.vue";
 import router from "./router";
 import store from "./store";
+import Vuetify from "vuetify";
+import "vuetify/dist/vuetify.min.css";
+import "material-design-icons-iconfont/dist/material-design-icons.css";
 
 import importGlobals from "./utils/importGlobals";
 
 importGlobals();
-
+Vue.use(Vuetify);
 new Vue({
     router,
     store,
