@@ -10,10 +10,10 @@ module.exports = {
         }
     },
     entry: {
-        UOM_main: path.join(
+        UON_main: path.join(
             __dirname,
             'resources',
-            'UOM',
+            'UON',
             'app.ts'
         )
     },
@@ -36,7 +36,7 @@ module.exports = {
             {
                 test: /\.vue$/,
                 loader: 'vue-loader',
-                include: /UOM/
+                include: /UON/
             },
             {
                 test: /\.ts$/,

@@ -13,6 +13,6 @@
     <body>
         <div id="app"></div>
         <!--scripts loaded here-->
-        <script src="{{URL::asset('/build/UOM_main.js')}}"></script>
+        <script src="{{URL::asset('/build/UON_main.js')}}"></script>
     </body>
 </html>

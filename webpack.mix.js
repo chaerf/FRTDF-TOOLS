@@ -17,7 +17,7 @@ const mix = require('laravel-mix');
                     appendTsSuffixTo: [/\.vue$/]
                 },
                 include: [
-                    path.resolve(__dirname, 'resources/UOM')
+                    path.resolve(__dirname, 'resources/UON')
                 ]
             }]
         },
@@ -27,5 +27,5 @@ const mix = require('laravel-mix');
     }).
  */
 
-mix.ts('resources/UOM/app.ts', 'public/js')
+mix.ts('resources/UON/app.ts', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');

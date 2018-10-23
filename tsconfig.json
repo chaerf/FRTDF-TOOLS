@@ -7,16 +7,16 @@
         // if using webpack 2+ or rollup, to leverage tree shaking:
         "module": "es2015",
         "moduleResolution": "node",
-        "rootDir": "resources/UOM",
+        "rootDir": "resources/UON",
         "baseUrl": ".",
         "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
         "sourceMap": true,
         "paths": {
-            "@/*": ["resources/UOM/*"]
+            "@/*": ["resources/UON/*"]
         }
     },
     "include": [
-        "resources/UOM"
+        "resources/UON"
     ]
 }
