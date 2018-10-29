@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\UON\Aula;
-use App\Models\Auth\User;
+use App\Models\Base\Aula;
 
-class AulaTableSeeder extends Seeder
+class AulaSeeder extends Seeder
 {
     /**
      * Run the database seeds.

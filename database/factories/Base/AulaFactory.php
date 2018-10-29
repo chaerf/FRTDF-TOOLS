@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator as Faker;
-use App\Models\UON\Aula;
+use App\Models\Base\Aula;
 use App\Models\Base\Entity;
 
 /*

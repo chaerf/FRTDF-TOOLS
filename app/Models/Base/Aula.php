@@ -1,8 +1,6 @@
 <?php
 
-namespace App\Models\UON;
-
-use App\Models\Base\Entity;
+namespace App\Models\Base;
 
 class Aula extends Entity
 {
